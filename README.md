@@ -3,7 +3,7 @@ Example microservices stack using Flask and Kong
 
 Part 1: Dựng Mock server sử dụng json-server
 
-![microservices-part 1](docs/microservices-part 1.png)
+![microservices-part 1](docs/microservices-part1.png)
 
 ```bash
 curl http://localhost:80/posts
