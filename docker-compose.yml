@@ -1,0 +1,8 @@
+version: '2'
+services:
+  json-server:
+    image: clue/json-server
+    volumes:
+    - ./json-server/db.json:/data/db.json
+    ports:
+    - 80:80
