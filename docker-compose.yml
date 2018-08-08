@@ -1,8 +1,14 @@
 version: '2'
 services:
-  json-server:
+  json-server-post:
     image: clue/json-server
     volumes:
     - ./json-server/db.json:/data/db.json
     ports:
-    - 80:80
+    - 8080:80
+  json-server-user:
+    image: clue/json-server
+    volumes:
+    - ./json-server/db_user.json:/data/db.json
+    ports:
+    - 8081:80
