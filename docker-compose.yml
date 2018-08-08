@@ -3,7 +3,7 @@ services:
   json-server-post:
     image: clue/json-server
     volumes:
-    - ./json-server/db.json:/data/db.json
+    - ./json-server/db_post.json:/data/db.json
     ports:
     - 8080:80
   json-server-user:
